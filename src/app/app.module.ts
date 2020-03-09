@@ -14,6 +14,7 @@ import { RouterModule } from "@angular/router";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms'
 import { CustomFormsModule } from 'ng2-validation'
+import { DataTableModule } from 'angular7-data-table';
 
 
 import { AppComponent } from './app.component';
@@ -48,6 +49,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
     BrowserModule,
     FormsModule,
     CustomFormsModule,
+    DataTableModule.forRoot(),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
