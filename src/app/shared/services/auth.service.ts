@@ -1,9 +1,9 @@
-import { UserService } from './user.service';
+import { UserService } from 'shared/services/user.service';
 import { Observable } from 'rxjs/Observable';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { Injectable } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { AppUser } from './models/app-user';
+import { AppUser } from 'shared/models/app-user';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/observable/of';
 import * as firebase from 'firebase';
